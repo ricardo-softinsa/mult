@@ -13,7 +13,7 @@ pipeline{
         stage('SonarQube - Analysis'){
             steps{
                 echo "SonarQube Analysis..."
-                script{
+                script{ 
                     echo "SonarQube"                    }
                 }  
                 
