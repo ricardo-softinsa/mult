@@ -7,17 +7,17 @@ pipeline{
                 //bat "echo Building ${BRANCH_NAME}..."
                 
                 //Checkout code from the repository
-                checkout scm
+                checkout scm 
             }
-        }*/
+        }*/ 
         stage('SonarQube - Analysis'){
-            steps{
+            steps{    
                 echo "SonarQube Analysis..."
-                script{
+                script{ 
                     echo "SonarQube"                    }
                 }  
                 
-            }
+            } 
         
         stage('SonarQube - Quality Gates'){
             steps{    
