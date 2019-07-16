@@ -17,7 +17,7 @@ pipeline{
                     echo "SonarQube"                    }
                 }  
                 
-            }
+            } 
         
         stage('SonarQube - Quality Gates'){
             steps{    
