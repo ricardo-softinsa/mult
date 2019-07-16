@@ -11,7 +11,7 @@ pipeline{
             }
         }*/ 
         stage('SonarQube - Analysis'){
-            steps{ 
+            steps{  
                 echo "SonarQube Analysis..."
                 script{ 
                     echo "SonarQube"                    }
