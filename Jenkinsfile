@@ -9,7 +9,7 @@ pipeline{
                 //Checkout code from the repository
                 checkout scm 
             }
-        }*/
+        }*/ 
         stage('SonarQube - Analysis'){
             steps{ 
                 echo "SonarQube Analysis..."
